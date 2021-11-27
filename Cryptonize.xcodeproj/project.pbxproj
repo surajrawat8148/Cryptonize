@@ -13,6 +13,9 @@
 		B44A0D97274A2BBD007991B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44A0D95274A2BBD007991B9 /* Main.storyboard */; };
 		B44A0D99274A2BC1007991B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44A0D98274A2BC1007991B9 /* Assets.xcassets */; };
 		B44A0D9C274A2BC1007991B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B44A0D9A274A2BC1007991B9 /* LaunchScreen.storyboard */; };
+		B44A0DA4274A2D30007991B9 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44A0DA3274A2D30007991B9 /* APICaller.swift */; };
+		B4AA97BB274A81A4006C702D /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA97BA274A81A4006C702D /* CryptoTableViewCell.swift */; };
+		B4BA500F274BDED300380BC8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA500E274BDED300380BC8 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		B44A0D98274A2BC1007991B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44A0D9B274A2BC1007991B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B44A0D9D274A2BC1007991B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44A0DA3274A2D30007991B9 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		B4AA97BA274A81A4006C702D /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		B4BA500E274BDED300380BC8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				B44A0D8F274A2BBD007991B9 /* AppDelegate.swift */,
 				B44A0D91274A2BBD007991B9 /* SceneDelegate.swift */,
 				B44A0D93274A2BBD007991B9 /* ViewController.swift */,
+				B44A0DA3274A2D30007991B9 /* APICaller.swift */,
 				B44A0D95274A2BBD007991B9 /* Main.storyboard */,
 				B44A0D98274A2BC1007991B9 /* Assets.xcassets */,
 				B44A0D9A274A2BC1007991B9 /* LaunchScreen.storyboard */,
 				B44A0D9D274A2BC1007991B9 /* Info.plist */,
+				B4AA97BA274A81A4006C702D /* CryptoTableViewCell.swift */,
+				B4BA500E274BDED300380BC8 /* Models.swift */,
 			);
 			path = Cryptonize;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				B44A0D94274A2BBD007991B9 /* ViewController.swift in Sources */,
 				B44A0D90274A2BBD007991B9 /* AppDelegate.swift in Sources */,
 				B44A0D92274A2BBD007991B9 /* SceneDelegate.swift in Sources */,
+				B4BA500F274BDED300380BC8 /* Models.swift in Sources */,
+				B4AA97BB274A81A4006C702D /* CryptoTableViewCell.swift in Sources */,
+				B44A0DA4274A2D30007991B9 /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +304,7 @@
 				DEVELOPMENT_TEAM = 42RGPYFA3W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cryptonize/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Crytonize;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +333,7 @@
 				DEVELOPMENT_TEAM = 42RGPYFA3W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cryptonize/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Crytonize;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
